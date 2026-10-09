@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.contain{
+    display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 40px;
+}
