@@ -152,10 +152,51 @@ body {
   align-self: flex-start;
 }
 
-.full-width-card{
+.full-width-card {
   border: solid 1px #27272a;
-  width: 69rem;
-  border-radius: 10px;
+  width: 1100px;
   margin-left: 300px;
-  height: 150px;
+  border-radius: 20px;
+
+}
+
+.full-width-card p{
+
+     max-width: 700px;
+  color: #94a3b8;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 5px 0 0 0;
+  margin-left: 30px;
+  height: 100px;
+}
+
+.full-width-card h3{
+  margin-left: 30px;
+}
+
+.full-width-card:hover {
+  border-color: #10b981;
+  transform: scale(1.02);
+}
+
+.projects-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.projects-1 h3{
+  margin-right: 170px;
+}
+
+.projects-1 p{
+   color: #94a3b8;
+   font-size: 14px;
+}
+
+.cards-container-1{
+  display: flex;
+  
 }
