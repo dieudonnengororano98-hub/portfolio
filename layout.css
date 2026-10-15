@@ -325,7 +325,142 @@ body {
 }
 
 
+.connect-card {
+    max-width: 1100px;
+     margin: 30px auto;
+    padding: 30px;
+    background-color: #09090b;
+    border: solid 1px #27272a;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.connect-card:hover{
+  border-color: #10b981;
+  transform:scale(1,02);
+}
+
+
+.connect-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+} 
+
+
+.connect-card {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #09090b;
+    border: solid 1px #27272a;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.connect-card:hover {
+    border-color: #10b981;
+    transform: scale(1.01);
+}
+
+
+.connect-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.connect-item p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #71717a;
+    font-weight: bold;
+}
+
+.connect-subtitle {
+    margin: 0 0 25px 0;
+    font-size: 14px;
+    color: #94a3b8;
+    max-width: 700px;
+}
+
+.connect-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
 
 
 
+.connect-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #09090b;
+    border: solid 1px #27272a;
+    border-radius: 14px;
+    padding: 20px;
+    text-decoration: none;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
 
+.connect-item:hover {
+    border-color: #10b981;
+    transform: translateY(-2px);
+}
+
+.icon-img {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+
+.connect-text h4 {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.connect-text p {
+    margin: 0;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+
+.linkedin-dot {
+    background-color: #10b981; 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+
+.footer-divider {
+    max-width: 1100px;
+    border: none;
+    border-top: solid 1px #27272a;
+    margin: 50px auto 20px auto;
+}
+
+.site-footer {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 13px;
+    color: #71717a;
+}
