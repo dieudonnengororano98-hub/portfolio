@@ -11,11 +11,15 @@ body {
 
 
 .contain {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px 40px;
-  border-bottom: solid 1px #27272a;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #09090b; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 40px;
+    border-bottom: solid 1px #27272a;
 }
 
 .logo {
